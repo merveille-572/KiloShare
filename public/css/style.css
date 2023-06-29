@@ -1,0 +1,36 @@
+.banner{
+   /* background: url("/img/aero.jpg"),center center fixed no-repeat ;*/
+   background-image: url("/img/first.jpeg");
+    height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.banner .banner-desc{
+    color:#fff;
+}
+ 
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: lightblue;
+}
+.btn-order{
+    border-color: var(--bs-teal);
+    transform: 0.5s;
+    color: var(--bs-teal);
+}
+h5{
+    color: #fff;
+
+}
+.redressed{
+    font-family:'redressed',cursive;
+}
+.merriweather{
+    font-family: 'merriweather',serif;
+}
+p{
+    margin-top: 40px;
+}
